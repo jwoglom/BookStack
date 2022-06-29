@@ -24,7 +24,7 @@ esbuild.build({
     entryPoints: entryFiles,
     outdir: outDir,
     sourcemap: true,
-    target: 'es2020',
+    target: 'es2019',
     mainFields: ['module', 'main'],
     format: 'esm',
     minify: isProd,
